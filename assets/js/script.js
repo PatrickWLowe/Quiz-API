@@ -36,6 +36,16 @@ var OptB = document.querySelector("#OptB");
 var OptC = document.querySelector("#OptC");
 var OptD = document.querySelector("#OptD");
 var highscorebtn = document.querySelector("#highscore-button");
-var OptD = document.querySelector("#Possibleanswers");
-
+var multichoice = document.querySelector("#Possibleanswers");
+var answer = document.querySelector("#answer");
+var initialsform = document.querySelector("#initials-form");
+var inputinitials = document.querySelector("#inputinitials");
+var highscorelist = document.querySelector("#highscoreslist");
+var Goback = document.querySelector("#Goback");
+var Clear = document.querySelector("#Clear");
 var timeremaining = questions.length * 15;
+var qs = 0;
+var sec = 0;
+var score = 0;
+var scoreList = [];
+var timeInterval;
