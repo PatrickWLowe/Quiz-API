@@ -30,3 +30,12 @@ h2 {
   padding: 40px;
   font-size: xx-large;
 }
+
+p {
+  color: darkblue;
+  font-size: x-large;
+}
+
+#list {
+  font-size: x-large;
+}
