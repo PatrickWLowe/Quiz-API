@@ -8,3 +8,25 @@
 .hide {
   display: none;
 }
+
+body {
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  color: black;
+  background-color: lightblue;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+h2 {
+  padding: 40px;
+  font-size: xx-large;
+}
